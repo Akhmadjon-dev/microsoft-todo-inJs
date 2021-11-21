@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="root">
+        <div id="header">
+            <div class="profile">
+                <img class="profile__img" src="https://www.w3schools.com/howto/img_avatar.png" alt="">
+                <div class="profile__info">
+                    <h1 class="profile__name">John Doe</h1>
+                    <h2 class="profile__email">@johndoe</h2>
+                </div>
+            </div>
+            <form class="search">
+                <input class="search__input" type="text" placeholder="Search">
+                <button class="search__button">
+                    <img src="https://www.w3schools.com/howto/img_search.png" alt="">
+                </button>
+            </form>
+            <ul class="types">
+                <li id="tasksToday" class="types__item">
+                    <p class="types__icon">
+                        <i class="fas fa-sun"></i>
+                    </p>
+                    <p class="types__title" id="types--title">
+                        My day
+                    </p>
+                    <span id="tasksIndicatorToday" class="type__task-indicator">
+                        
+                    </span>
+                </li>
+                <li id="tasksImportant" class="types__item">
+                    <p class="types__icon">
+                        <i class="far fa-star"></i>
+                    </p>
+                    <p class="types__title" id="types--title">
+                        Important
+                    </p>
+                    <span id="tasksIndicatorImportant" class="type__task-indicator">
+                        
+                    </span>
+                </li>
+                <li id="tasksPlanned" class="types__item">
+                    <p class="types__icon">
+                        <i class="far fa-calendar-alt"></i>
+                    </p>
+                    <p class="types__title" id="types--title">
+                        Planned
+                    </p>
+                    <span id="tasksIndicatorPlanned" class="type__task-indicator">
+                        
+                    </span>
+                </li>
+                <li id="tasksAssignedToMe" class="types__item">
+                    <p class="types__icon">
+                        <i class="fas fa-user"></i>
+                    </p>
+                    <p class="types__title" id="types--title">
+                        Assinged to me
+                    </p>
+                    <span id="tasksIndicatorAssignedToMe" class="type__task-indicator">
+                        
+                    </span>
+                </li>
+                <li id="tasksAll" class="types__item">
+                    <p class="types__icon">
+                        <i class="fas fa-house-damage"></i>
+                    </p>
+                    <p class="types__title" id="types--title">
+                        Tasks
+                    </p>
+                    <span id="tasksIndicatorTasks" class="type__task-indicator">
+                        
+                    </span>
+                </li>
+            </ul>
+            <ul class="futureTypes">
+                <li id="tasksFuture" class="futureTypes__item">
+                    <p class="futureTypes__icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </p>
+                    <p class="futureTypes__title" id="futureTypes--title">
+                        Future
+                    </p>
+                    <span id="tasksIndicatorFuture" class="futureType__task-indicator">
+                        
+                    </span>
+                </li>
+            </ul>
+            <div class="add">
+                <button class="add__list">
+                    <i class="fas fa-plus"></i>
+                    New list
+                </button>
+                <!-- <button class="add__group">
+                    <i class="fas fa-plus"></i>
+                </button> -->
+            </div>
+        </div>
+        <div id="main"></div>
+    </div>    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
