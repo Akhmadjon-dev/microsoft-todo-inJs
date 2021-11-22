@@ -18,7 +18,21 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+input[type="checkbox"]{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    background-color: var(--grey);
+}
 
 .container {
     width: 100%;
