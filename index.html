@@ -108,7 +108,177 @@
                 </button> -->
             </div>
         </div>
-        <div id="main"></div>
+        <div class="main" id="main">
+          <div class="main__content">
+            <div class="main__header">
+                <div class="main__header-title">
+                    <h1>
+                        <span id="mainTitle">
+                            My day
+                        </span>
+                    </h1>
+                </div>
+                <div class="main__header-controls">
+                    <ul class="main__header-controls-list">
+                        <li class="main__header-controls-list-item">
+                            <i class="far fa-lightbulb"></i>
+                        </li>
+                    </ul>
+                    <button class="main__header-controls-button" id="mainControlsButton">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+            <ul class="main__tasks">
+                <li class="main__task">
+                    <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                    <label for="mainTaskCheckbox" class="main__task-label">
+                        <p class="main__task-label-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </label>
+                    <div class="main__task-controls">
+                        <span class="main__task-controls-icon">
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </li>
+                <li class="main__task">
+                    <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                    <label for="mainTaskCheckbox" class="main__task-label">
+                        <p class="main__task-label-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </label>
+                    <div class="main__task-controls">
+                        <span class="main__task-controls-icon">
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </li>
+                <li class="main__task">
+                    <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                    <label for="mainTaskCheckbox" class="main__task-label">
+                        <p class="main__task-label-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </label>
+                    <div class="main__task-controls">
+                        <span class="main__task-controls-icon">
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </li>
+                <li class="main__task">
+                    <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                    <label for="mainTaskCheckbox" class="main__task-label">
+                        <p class="main__task-label-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </label>
+                    <div class="main__task-controls">
+                        <span class="main__task-controls-icon">
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </li>
+                <li class="main__task">
+                    <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                    <label for="mainTaskCheckbox" class="main__task-label">
+                        <p class="main__task-label-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </label>
+                    <div class="main__task-controls">
+                        <span class="main__task-controls-icon">
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+            <div class="main__tasks-completed">
+                <div class="main__tasks-completed-title">
+                    <h2>
+                        Completed
+                    </h2>
+                </div>
+                <ul class="main__tasks-completed">
+                    <li class="main__task">
+                        <input type="checkbox" name="isCompleted" id="mainTaskCheckbox" class="main_task-checkbox">
+                        <label for="mainTaskCheckbox" class="main__task-label">
+                            <p class="main__task-label-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </label>
+                        <div class="main__task-controls">
+                            <span class="main__task-controls-icon">
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form class="task__add">
+                <button class="task__add-button">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <input type="text" name="task" id="task" class="task__add-input" placeholder="Add task">
+            </form>
+          </div>
+        <div class="main__info">
+            <div class="main__info-title">
+                <h2>
+                    Info
+                </h2>
+            </div>
+            <div class="main__info-content">
+                <div class="main__info-content-item">
+                    <p class="main__info-content-item-title">
+                        <i class="fas fa-tasks"></i>
+                        Tasks
+                    </p>
+                    <p class="main__info-content-item-value">
+                        <span id="tasksIndicatorAll">
+                            
+                        </span>
+                    </p>
+                </div>
+                <div class="main__info-content-item">
+                    <p class="main__info-content-item-title">
+                        <i class="fas fa-tasks"></i>
+                        Tasks
+                    </p>
+                    <p class="main__info-content-item-value">
+                        <span id="tasksIndicatorToday">
+                            
+                        </span>
+                    </p>
+                </div>
+                <div class="main__info-content-item">
+                    <p class="main__info-content-item-title">
+                        <i class="fas fa-tasks"></i>
+                        Tasks
+                    </p>
+                    <p class="main__info-content-item-value">
+                        <span id="tasksIndicatorTomorrow">
+                            
+                        </span>
+                    </p>
+                </div>
+                <div class="main__info-content-item">
+                    <p class="main__info-content-item-title">
+                        <i class="fas fa-tasks"></i>
+                        Tasks
+                    </p>
+                    <p class="main__info-content-item-value">
+                        <span id="tasksIndicatorFuture">
+                            
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>    
 
 
